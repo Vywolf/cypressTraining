@@ -21,3 +21,6 @@ Feature: Top menu Apps
 
    Scenario: Verify menu options are displayed correctly
       Then the top menu is displayed on the page and has menu options
+   
+   Scenario: Verify dropdown menu options are displayed correctly
+      Then the top menu is displayed on the page and people has dropdown options

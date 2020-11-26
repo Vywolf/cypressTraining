@@ -20,5 +20,9 @@ Feature: Top menu Apps
          | 4 | app4      |
    
       Scenario: Verify menu options are displayed correctly
-      Given the playground is using the Global Sidemenu
-      Then the top menu is displayed on the page and has menu options
+         Given the playground is using the Global Sidemenu
+         Then the top menu is displayed on the page and has menu options
+
+      Scenario: Verify dropdown menu options are displayed correctly
+         Given the playground is using the Global Sidemenu
+         Then the top menu is displayed on the page and people has dropdown options
