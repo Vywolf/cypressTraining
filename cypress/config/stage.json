@@ -1,7 +1,7 @@
 {
   "env": {
-      "baseUrl":"https://omnitracs-gmenu-playground-navigation-playground-dev.apps.dc12-dev-01.cld.omnitracs.com/",
-      "sso_login_username": "adamatspeedy@gmail.com",
-      "sso_login_password": "Omnitracs17"
+      "baseUrl":"aDifferentURL-STAGE-TEST",
+      "sso_login_username": "aDifferentUser",
+      "sso_login_password": "aDifferentPassword"
   }
 }
