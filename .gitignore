@@ -1,0 +1,21 @@
+#Directories
+cypress/screenshots
+cypress/videos
+
+#The index.js need to be excluded to persist the changes need for 
+# mochaewsoe library to work
+node_modules/*
+!node_modules/mochawesome-merge
+node_modules/mochawesome-merge/*
+!node_modules/mochawesome-merge/lib
+node_modules/mochawesome-merge/lib/*
+!node_modules/mochawesome-merge/lib/index.js
+
+#Cypress examples
+fixtures/example.json
+
+npm-debug.log
+
+#Reports
+cypress/report/execution-reports
+cypress/report/merged-reports/*

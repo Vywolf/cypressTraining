@@ -1,0 +1,19 @@
+{
+  
+  "testFiles": "**/*.feature",
+  "viewportWidth": 1920,
+  "viewportHeight": 1080,
+  "chromeWebSecurity": false,
+  "reporter": "mochawesome",
+  "baseUrl":"https://omnitracs-gmenu-playground-navigation-playground-dev.apps.dc12-dev-01.cld.omnitracs.com/",
+  "reporterOptions": {
+    "reportFilename": "taxmanager-tests-execution",
+      "reportDir": "cypress/report/execution-reports",
+      "overwrite": false,
+      "html": true,
+      "json": true,
+      "timestamp": "mmddyyyy_HHMMss"
+   },
+   "defaultCommandTimeout":15000,
+   "video":false
+}
