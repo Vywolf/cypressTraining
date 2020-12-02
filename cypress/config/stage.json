@@ -1,6 +1,6 @@
 {
   "env": {
-      "baseUrl":"aDifferentURL-STAGE-TEST",
+      "baseUrl":"https://omnitracs-gmenu-playground-navigation-playground-stage.apps.dc12-test-01.cld.omnitracs.com/",
       "sso_login_username": "aDifferentUser",
       "sso_login_password": "aDifferentPassword"
   }

@@ -1,7 +1,7 @@
 /// <reference types="Cypress" />
 import * as Data from '../../Data/Data';
 
-  Given('the playground is using the Global Sidemenu', () => {
+  Given('the playground is using the Global menu', () => {
     cy.loginSSO();
     cy.wait(1000);
     cy.url().should('eq', 'https://omnitracs-gmenu-playground-navigation-playground-dev.apps.dc12-dev-01.cld.omnitracs.com/app1');

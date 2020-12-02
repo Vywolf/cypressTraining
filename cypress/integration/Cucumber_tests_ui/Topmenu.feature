@@ -1,7 +1,7 @@
 Feature: Top menu Apps
 
    Background:
-      Given the playground is using the Global Sidemenu
+      Given the playground is using the Global menu
 
    Scenario: Verify applications are displayed correctly
       Then the top menu applications are displayed in the page in order
